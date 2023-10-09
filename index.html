@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Pratik Kalshetti">
+    
+    <title>Pratik Kalshetti</title>
+    <link href="data/favicons/pratik.png" rel="icon" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    <!-- It is suggested to include the JavaScript at the top of your page to reduce potential screen flickering during reloading of your site. -->
+    <script src="js/color_mode_toggle.js"></script>
+
+</head>
+<body>
+
+    <style>
+
+        .container-fluid {
+            width: 992px;
+        }
+    </style>
+    <header class="sticky-top" id="header">
+        <div class="container-fluid border-bottom" id="header_container">
+            <div class="hstack align-items-center">
+                <div class="">
+                    <h1 class="display-5">
+                        Pratik Kalshetti
+                    </h1>
+                </div>
+                <div class="ms-auto">
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" role="switch" id="lightSwitch" >
+                        <label class="form-check-label bi bi-brightness-high-fill" for="lightSwitch" id="lightSwitchIcon"></label>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container-fluid">
+            <div class="mt-4">
+                <div class="row align-items-center">
+                    <div class="col-3">
+                        <img src="data/photo/pratik_wo_bg.png" class="img-fluid rounded-circle img-thumbnail" alt="...">
+                    </div>
+                    <div class="col">
+                        <p class="lead">
+                            MTech+PhD dual degree student <br>
+                            <small><a href="https://www.cse.iitb.ac.in/" class="text-decoration-none">Department of Computer Science and Engineering</a></small> <br>
+                            <small><a href="http://iitb.ac.in/" class="text-decoration-none">Indian Institute of Technology Bombay</a></small>
+                        </p>
+                        
+                        <p>
+                            Email: <a id="email" href="" class="text-decoration-none"></a>  
+                            <br>                         
+                            <a href="data/resume.pdf">CV</a>
+                            <br>                         
+                            <a href="pages/bio.html">Bio</a>
+                        </p>   
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-4">
+                <h2 class="display-6">About</h2>
+
+                <p>
+                    My PhD thesis is on <b>Hand Avatar Reconstruction and Tracking</b>, advised by <a href="https://www.cse.iitb.ac.in/~paragc/" class="text-decoration-none">Parag Chaudhuri</a>.
+                    Specifically, I have worked on <em>hand pose estimation</em>, <em>mesh-based 3D hand tracking</em>, <em>personalized hand shape modeling</em> and <em>hand avatar reconstruction</em>.
+                    My broad research interests are <em>computer graphics and 3D computer vision</em>.
+                    I was an intern at <a href="https://research.adobe.com/" class="text-decoration-none">Adobe Research</a> with <a href="https://www.cs.toronto.edu/~jacobson/" class="text-decoration-none">Alec Jacobson</a>, <a href="https://www.oliverwang.info/" class="text-decoration-none">Oliver Wang</a>, <a href="https://imagine.enpc.fr/~groueixt/" class="text-decoration-none">Thibault Groueix</a> and <a href="http://www.vovakim.com/" class="text-decoration-none">Vova Kim</a>.
+                    Previously, I did my <em>BTech in Computer Science and Engineering</em> from <a href="https://www.iitj.ac.in/" class="text-decoration-none">Indian Institute of Technology Jodhpur</a>.
+                </p>
+            </div>
+
+            <div class="mt-4">
+                <h2 class="display-6">Awards</h2>
+                <ul>
+                    <li><a href="https://jamestompkin.com/assets/img/SIGGRAPH_50th___Posters_20th.png" class="text-decoration-none">Featured at SIGGRAPH 2023 for becoming one of the eight students to have been placed twice in top three in the ACM Student Research Competition, in the history of SIGGRAPH</a>.</li>
+                    <li><a href="https://s2022.siggraph.org/event/student-research-competition/" class="text-decoration-none">2<sup>nd</sup> place in ACM Student Research Competition at SIGGRAPH 2022, Vancouver</a>.</li>
+                    <li>Awarded TCS Research Scholar Fellowship, 2019</li>
+                    <li><a href="https://s2019.siggraph.org/conference/programs-events/organization-events/acm-student-research-competition/" class="text-decoration-none">3<sup>rd</sup> place in ACM Student Research Competition at SIGGRAPH 2019, Los Angeles</a>.</li>
+                    <li><a href="https://www.qualcomm.com/invention/research/university-relations/innovation-fellowship/winners" class="text-decoration-none">Winner Qualcomm Innovation Fellowship India 2017</a>.</li>
+                </ul>
+            </div>
+                    
+            <div class="mt-4">
+                <h2 class="display-6">Publications</h2>
+                
+                <!-- 2024_wacv_intrinsic_hand -->
+                <div class="row align-items-center">
+                    <div class="col-2">
+                        <img src="data/publications/thumbnails/2024_wacv_intrinsic_hand.png" class="img-fluid" style="background-color: white;">
+                    </div>
+                    <div class="col-10">
+                        <p>
+                            <b>Intrinsic Hand Avatar: Illumination-aware Hand Appearance and Shape Reconstruction from Monocular RGB Video</b>
+                            <br>
+                            Pratik Kalshetti, Parag Chaudhuri
+                            <br>
+                            <em>WACV 2024 (to appear)</em>
+                            <br>
+                            <a href="data/publications/papers/2024_wacv_intrinsic_hand.pdf">Paper</a> | <a>Code</a> | <a>Project</a>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 2023_siggraphasia_doctoral_consortium -->
+                <div class="row align-items-center">
+                    <div class="col-2">
+                        <img src="data/publications/thumbnails/2023_siggraphasia_doctoral_consortium.png" class="img-fluid" style="background-color: white;">
+                    </div>
+                    <div class="col-10">
+                        <p>
+                            <b>Reconstructing Hand Shape and Appearance for Accurate Tracking from Monocular Video</b>
+                            <br>
+                            Pratik Kalshetti
+                            <br>
+                            <em>SIGGRAPH Asia Doctoral Consortium 2023 (to appear)</em>
+                            <br>
+                            <!-- <a href="https://dl.acm.org/doi/10.1145/3623053.3623371">Paper</a> | <a href="data/publications/papers/2023_siggraphasia_doctoral_consortium_poster.pdf">Poster</a> -->
+                            <a href="data/publications/papers/2023_siggraphasia_doctoral_consortium_paper.pdf">Paper</a> | <a href="data/publications/papers/2023_siggraphasia_doctoral_consortium_poster.pdf">Poster</a>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 2022_sca_hand_tracking -->
+                <div class="row align-items-center">
+                    <div class="col-2">
+                        <img src="data/publications/thumbnails/2022_sca_hand_tracking.png" class="img-fluid" style="background-color: white;">
+                    </div>
+                    <div class="col-10">
+                        <p>
+                            <b>Local Scale Adaptation to Hand Shape Model for Accurate and Robust Hand Tracking</b>
+                            <br>
+                            Pratik Kalshetti, Parag Chaudhuri
+                            <br>
+                            <em>Computer Graphics Forum (ACM SIGGRAPH/Eurographics Symposium on Computer Animation) 2022</em>
+                            <br>
+                            <a href="https://doi.org/10.1111/cgf.14637">Paper</a> | <a href="https://github.com/pmkalshetti/amano">Code</a> | <a>Project</a>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 2022_siggraph_amano -->
+                <div class="row align-items-center">
+                    <div class="col-2">
+                        <img src="data/publications/thumbnails/2022_siggraph_amano.png" class="img-fluid" style="background-color: white;">
+                    </div>
+                    <div class="col-10">
+                        <p>
+                            <b>Local scale adaptation for augmenting hand shape models</b>
+                            <br>
+                            Pratik Kalshetti, Parag Chaudhuri
+                            <br>
+                            <em>SIGGRAPH Posters 2022</em>
+                            <br>
+                            <a href="https://dl.acm.org/doi/10.1145/3532719.3543246">Paper</a>
+                            <br>
+                            <i class="bi bi-star-fill"></i>
+                            <a href="https://s2022.siggraph.org/event/student-research-competition/" class="text-decoration-none">2<sup>nd</sup> place in ACM Student Research Competition</a>
+                            <br>
+                            <i class="bi bi-star-fill"></i>
+                            <a href="https://blog.siggraph.org/2022/08/lets-give-a-hand-to-this-graduate-research.html" class="text-decoration-none">Featured in ACM SIGGRAPH Blog</a>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 2019_siggraph_unsupervised -->
+                <div class="row align-items-center">
+                    <div class="col-2">
+                        <img src="data/publications/thumbnails/2019_siggraph_unsupervised.png" class="img-fluid" style="background-color: white;">
+                    </div>
+                    <div class="col-10">
+                        <p>
+                            <b>Unsupervised incremental learning for hand shape and pose estimation</b>
+                            <br>
+                            Pratik Kalshetti, Parag Chaudhuri
+                            <br>
+                            <em>SIGGRAPH Posters 2019</em>
+                            <br>
+                            <a href="https://doi.org/10.1145/3306214.3338553">Paper</a>
+                            <br>
+                            <i class="bi bi-star-fill"></i>
+                            <a href="https://s2019.siggraph.org/conference/programs-events/organization-events/acm-student-research-competition/" class="text-decoration-none">3<sup>rd</sup> place in ACM Student Research Competition</a>
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- 2017_compbiomed_segmentation -->
+                <div class="row align-items-center">
+                    <div class="col-2">
+                        <img src="data/publications/thumbnails/2017_compbiomed_segmentation.png" class="img-fluid" style="background-color: white;">
+                    </div>
+                    <div class="col-10">
+                        <p>
+                            <b>An Interactive Medical Image Segmentation Framework using Iterative Refinement</b>
+                            <br>
+                            Pratik Kalshetti<sup>*</sup>, Manas Bundele, Parag Rahangdale, Dinesh Jangra, Chiranjoy Chattopadhyay, Gaurav Harit, Abhay Elhence 
+                            <br>
+                            <em>Computers in Biology and Medicine 2017</em>
+                            <br>
+                            <a href="https://doi.org/10.1016/j.compbiomed.2017.02.002">Paper</a> | <a href="https://gesstalt.github.io/research/medimage.html">Project</a>
+                            <br>
+                            <i class="bi bi-star-fill"></i>
+                            Accorded Honors status
+                            <br>
+                            <i class="bi bi-star-fill"></i>Shortlisted for best BTech project
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+    </main>
+    
+
+    <footer>
+        <div class="container-fluid border-top mt-4">
+            <div class="row justify-content-between">
+                <div class="col" id="last_updated"></div>
+                <div class="col-2 text-end"> &copy; Pratik Kalshetti</div>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- <script src="./web_meta_data/js/color_mode_toggle.js"></script> -->
+    <script src="js/email.js"></script>
+    <script src="js/last_updated.js"></script>
+
+</body>
+</html>
